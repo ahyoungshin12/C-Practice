@@ -6,7 +6,6 @@ int main() {
     FILE *fp = fopen("data/Obama_Speech.txt", "r");
     printf("Input the word you want to extract : ");
 
-    // Write your code here
     char input[20];
     char word[100];
     int i, len;
