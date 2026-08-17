@@ -20,7 +20,7 @@ int main() {
     time_diff(t1, t2, &diff);
     printf("Duration: %d hour(s), %d min(s), %d sec(s)\n", \
         diff.hours, diff.minutes, diff.seconds);
-
+ 
     return 0;
 }
 
